@@ -1,0 +1,24 @@
+# requirements.txt
+
+# Core framework for the GUI
+PyQt5
+
+# For AI model interactions and utilities
+
+PyYAML
+python-pptx
+
+# For file processing
+pydub
+PyPDF2
+
+# For Image Generation using Stable Diffusion
+torch
+torchvision
+torchaudio
+diffusers
+transformers
+accelerate
+
+# For GUI styling
+qt-material
