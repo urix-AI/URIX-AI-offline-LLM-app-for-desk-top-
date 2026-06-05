@@ -1,0 +1,3 @@
+# User-specific preferences (optional overrides)
+gui:
+  theme: dark

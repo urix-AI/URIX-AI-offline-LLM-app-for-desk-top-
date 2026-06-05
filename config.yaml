@@ -1,0 +1,29 @@
+# config/config.yaml
+
+
+# Add this new section
+hugging_face:
+  token: "your_token_id"
+
+
+models:
+  # Set the default model to load on startup
+  default_mode: "medium"
+  
+  # Define the paths for each mode
+  modes:
+    eco:
+      path: "C:/urix_pro/models/llm/eco/eco.gguf"
+    medium:
+      path: "C:/urix_pro/models/llm/medium/medium.gguf"
+    pro:
+      path: "C:/urix_pro/models/llm/pro/pro.gguf"
+      
+  # Common settings for all models
+  n_gpu_layers: -1
+  n_ctx: 4096
+
+google_search:
+  api_key: "your-key"
+  search_engine_id: "your_id"
+
